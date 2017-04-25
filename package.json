@@ -1,8 +1,8 @@
 {
-  "name": "amperize",
+  "name": "miperize",
   "version": "0.3.4",
-  "description": "AMP up your plain HTML",
-  "main": "./lib/amperize",
+  "description": "MIP up your plain HTML",
+  "main": "./lib/miperize",
   "scripts": {
     "test": "mocha $(find test -name '*.test.js')",
     "watch": "mocha --watch $(find test -name '*.test.js')",
@@ -12,18 +12,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbhannah/amperize.git"
+    "url": "https://github.com/pollbox/miperize.git"
   },
   "keywords": [
-    "amp",
+    "mip",
     "html"
   ],
-  "author": "Jesse B. Hannah <jesse@jbhannah.net>",
+  "author": {
+      "name": "pollbox",
+      "email": "pollbox@dingtalk.com",
+      "url": "https://ghostblog.cn"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jbhannah/amperize/issues"
+    "url": "https://github.com/pollbox/miperize/issues"
   },
-  "homepage": "https://github.com/jbhannah/amperize#readme",
+  "homepage": "https://github.com/pollbox/miperize#readme",
   "dependencies": {
     "async": "2.1.4",
     "emits": "3.0.0",
